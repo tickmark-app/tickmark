@@ -1,0 +1,46 @@
+name: Bug report
+description: Something does not work as it should.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Tickmark version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux (Wayland)
+        - Linux (X11)
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: System version and desktop
+      placeholder: "Windows 11 24H2 / macOS 15 / Ubuntu 24.04 GNOME"
+  - type: input
+    id: screens
+    attributes:
+      label: Monitors and scaling
+      description: How many monitors, and the scaling of each.
+      placeholder: "2 monitors: 150 % and 100 %"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or logs
