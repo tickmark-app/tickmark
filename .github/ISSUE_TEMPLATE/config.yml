@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/tickmark-app/tickmark/discussions
+    about: Ask questions and discuss ideas here.
+  - name: Security vulnerability
+    url: https://github.com/tickmark-app/tickmark/security/advisories/new
+    about: Report security issues privately, not as a public issue.

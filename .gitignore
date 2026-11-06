@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+coverage.xml
+htmlcov/
+
+# Deployment (pyside6-deploy / Nuitka)
+deployment/
+*.build/
+*.dist/
+*.onefile-build/
+
+# Translations are compiled at build time
+*.qm
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
